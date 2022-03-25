@@ -1,0 +1,34 @@
+{
+  "name": "nft-zombies-marketplace",
+  "version": "1.0.0",
+  "description": "A marketplace to buy and sell ERC721 zombies",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "nft",
+    "zombies",
+    "crypto",
+    "web3",
+    "truffle",
+    "solidity",
+    "vue",
+    "vuejs",
+    "marketplace"
+  ],
+  "author": "BFYDigital",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "dotenv": "^16.0.0",
+    "nft-zombies": "github:BFYDigital/erc721-zombie-game"
+  },
+  "devDependencies": {
+    "truffle-test-utils": "^0.1.0"
+  }
+}
